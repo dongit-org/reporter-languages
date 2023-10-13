@@ -2,6 +2,11 @@
     "language": "nl",
     "name": "Dutch",
     "translations": {
+        "captions": {
+            "figure": "Figuur",
+            "listing": "Fragment",
+            "table": "Tabel"
+        },
         "components": {
             "cvss-risk-assessment-table.classification": "Classificaties",
             "cvss-risk-assessment-table.score": "Score",
@@ -24,16 +29,16 @@
             "owasp-risk-assessment-table.likelihood": "Waarschijnlijkheid",
             "owasp-risk-assessment-table.caption": "OWASP risicobeoordelingsmethodiek",
             "results-table.legend": "Legenda risico ernst",
-            "results-table.target": "Doel",
+            "results-table.target": "Doelwit",
             "results-table.section": "Categorie",
             "results-table.findings": "Bevindingen",
             "results-table.no-findings": "Geen bevindingen",
             "results-table.finding-count-for-severity": ":severity: :severityCount bevinding|:severity: :severityCount bevindingen",
             "results-table.accepted-risk-finding-count": "waarvan :count risico geaccepteerd door de opdrachtgever|waarvan :count risico's geaccepteerd door de opdrachtgever",
             "results-table.resolved-findings": "Opgelost: :count bevinding|Opgelost: :count bevindingen",
-            "results-table.management.by-target-caption": "Een overzicht van bevindingen gesorteerd op doel.",
+            "results-table.management.by-target-caption": "Een overzicht van bevindingen gesorteerd op doelwit.",
             "results-table.management.by-section-caption": "Een overzicht van bevindingen gesorteerd op onderdeel.",
-            "results-table.full.by-target-caption": "Alle bevindingen per doel gesorteerd op ernst.",
+            "results-table.full.by-target-caption": "Alle bevindingen per doelwit gesorteerd op ernst.",
             "results-table.full.by-section-caption": "Alle bevindingen per onderdeel gesorteerd op ernst.",
             "results-table.vulnerabilities-found-tooltip": "Kwetsbaarheden gevonden",
             "results-table.no-vulnerabilities-found-tooltip": "Geen kwetsbaarheden gevonden",
@@ -41,7 +46,7 @@
             "results-table.count-findings": ":count bevinding|:count bevindingen",
             "results-table.count-resolved-findings": ":count opgeloste bevinding|:count opgeloste bevindingen",
             "results-table.last-retested-on": "Laatste hertest op :date",
-            "scope.no-targets": "Geen doelen gedefinieerd.",
+            "scope.no-targets": "Geen doelwitten gedefinieerd.",
             "started-on.reviewed-by": "Beoordeeld door :reviewers.",
             "started-on.executed-by": "Uitgevoerd door :researchers.",
             "started-on.initial-assessment-with-users": "Initieel onderzoek (:startDate - :deadline):",
@@ -74,7 +79,7 @@
             "Severity.9": "Laag",
             "Severity.10": "Gemiddeld",
             "Severity.11": "Hoog",
-            "Severity.12": "Kritisch"
+            "Severity.12": "Kritiek"
         },
         "field": {
             "owasp-score.impact": "Impact",
@@ -89,9 +94,9 @@
         },
         "finding": {
             "id": "ID: :id",
-            "vulnerable-targets": "Kwetsbare doel: :targets|Kwetsbare doelen: :targets",
-            "resolved-targets": "Opgelost doel: :targets|Opgeloste doelen: :targets",
-            "targets": "Doel: :targets|Doelen: :targets",
+            "vulnerable-targets": "Kwetsbaar doelwit: :targets|Kwetsbare doelwitten: :targets",
+            "resolved-targets": "Opgelost doelwit: :targets|Opgeloste doelwitten: :targets",
+            "targets": "Doelwit: :targets|Doelwitten: :targets",
             "reported-by": "Gerapporteerd door: :name",
             "reported-at": "Gerapporteerd op: :time",
             "retested-at": "Laatste hertest op: :time",
@@ -102,15 +107,15 @@
         },
         "glue": {
             "glue": ", ",
-            "final-glue-and": ", en",
-            "2-item-glue-and": "en",
-            "final-glue-or": ", of",
-            "2-item-glue-or": "of"
+            "final-glue-and": ", en ",
+            "2-item-glue-and": " en ",
+            "final-glue-or": ", of ",
+            "2-item-glue-or": " of "
         },
         "report": {
             "document-file-list": "Documenten:",
             "toc-name": "Inhoudsopgave",
-            "draft-tooltip": "Het onderzoek is nog niet afgerond, dus concept bevindingen zijn opgenomen in het rapport.",
+            "draft-tooltip": "Het onderzoek is nog niet afgerond, dus conceptbevindingen zijn opgenomen in het rapport.",
             "page-title": ":titleWithDate - Online rapport",
             "side-toc-title": "Inhoud",
             "draft-badge": "Concept"
