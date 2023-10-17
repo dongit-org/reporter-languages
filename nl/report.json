@@ -71,7 +71,7 @@
             "ReviewStatus.0": "Concept",
             "ReviewStatus.1": "In beoordeling",
             "ReviewStatus.2": "Gepubliceerd",
-            "Severity.0": "Niet van toepassing",
+            "Severity.0": "N.v.t.",
             "Severity.1": "Onbekend",
             "Severity.2": "OK",
             "Severity.3": "Vals positief",
