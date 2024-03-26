@@ -113,7 +113,7 @@
             "vulnerable-targets": "Kwetsbaar doelwit: :targets|Kwetsbare doelwitten: :targets",
             "resolved-targets": "Opgelost doelwit: :targets|Opgeloste doelwitten: :targets",
             "targets": "Doelwit: :targets|Doelwitten: :targets",
-            "limited-targets": ":targets en nog :count andere|:targets en nog :count anderen",
+            "limited-targets": ":targets en nog :count andere|:targets en nog :count andere",
             "reported-by": "Gerapporteerd door: :name",
             "reported-at": "Gerapporteerd op: :time",
             "retested-at": "Laatste hertest op: :time",
