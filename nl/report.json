@@ -1,7 +1,7 @@
 {
     "language": "nl",
     "name": "Dutch",
-    "translated_name": "nederlands",
+    "translated_name": "Nederlands",
     "translations": {
         "captions": {
             "figure": "Figuur",
@@ -87,6 +87,7 @@
             "ReviewStatus.2": "Gepubliceerd",
             "ReviewStatus.1": "In beoordeling",
             "ReviewStatus.0": "Concept",
+            "ReviewStatus.3": "Aanpassing Gevraagd",
             "Severity.0": "N.v.t.",
             "Severity.1": "Onbekend",
             "Severity.2": "OK",
@@ -119,6 +120,7 @@
             "retested-at": "Laatste hertest op: :time",
             "accepted-risk-tooltip": "Het risico van deze bevinding is geaccepteerd.",
             "not-published-tooltip": "Deze bevinding is nog niet zichtbaar voor de opdrachtgever.",
+            "retest-not-published-tooltip": "Deze hertest is nog niet zichtbaar voor de opdrachtgever.",
             "unknown-classification": "Onbekende classificatie",
             "link": "Link:"
         },
@@ -147,6 +149,9 @@
             "retested-by": "Hertest door: :name",
             "retested-at": "Hertest op: :time",
             "resolved-for-targets": "Opgelost voor: :targets"
+        },
+        "section": {
+            "unpublished-section": "Dit onderdeel is nog niet afgerond."
         },
         "text-boxes": {
             "address-table.name-letter": "n",
