@@ -8,4 +8,4 @@ For detailed instructions on how to use these language files, please refer to th
 
 ## Contributing
 
-We appreciate contributions! Please submit improvements or additions via Pull Requests.
+We appreciate contributions! If you've made a new language or made changes to an existing one, download it as JSON and submit it with a Pull Request. 
