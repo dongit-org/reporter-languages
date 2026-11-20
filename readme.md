@@ -1,6 +1,6 @@
 # Reporter Languages
 
-This repository hosts language files used by [Reporter](https://securityreporter.app).
+This repository hosts language files used by [Security Reporter](https://securityreporter.com).
 
 ## Documentation
 
